@@ -14,7 +14,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-core = 6.x
+core = 7.x
 
 ; API version
 ; ------------
@@ -50,9 +50,9 @@ api = 2
 ; projects[drupal][download][module] = "drupal"
 
 
-; projects[drupal][type] = "core"
-; projects[drupal][download][type] = "git"
-; projects[drupal][download][url] = "git://github.com/pressflow/7.git"
+projects[drupal][type] = "core"
+projects[drupal][download][type] = "git"
+projects[drupal][download][url] = "git://github.com/pressflow/7.git"
 
 
 projects[] = drupal
