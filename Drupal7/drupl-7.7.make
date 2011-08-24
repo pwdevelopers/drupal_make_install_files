@@ -73,7 +73,7 @@ projects[pathauto][subdir] = "contrib"
 projects[admin_menu] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
 
-projects[cck] = 2.x-dev
+projects[cck] = 7.x-2.x-dev
 projects[cck][subdir] = "contrib"
 
 projects[features] = 3.x-dev
