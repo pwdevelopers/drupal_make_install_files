@@ -64,11 +64,7 @@ projects[] = drupal
 projects[views][version] = 3.0-rc1
 projects[views][subdir] = "contrib"
 
-projects[views][subdir] = "contrib"
-projects[views][version] = 3
 
-projects[cck] = 2.x-dev
-projects[cck][subdir] = "contrib"
 
 projects[token] = 1.0-beta4
 projects[token][subdir] = "contrib"
@@ -79,6 +75,14 @@ projects[pathauto][subdir] = "contrib"
 projects[admin_menu] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
 
+projects[cck] = 2.x-dev
+projects[cck][subdir] = "contrib"
+
+projects[features] = 3.x-dev
+projects[features][subdir] = "contrib"
+
+
+http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
 
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not
