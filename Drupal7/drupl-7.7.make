@@ -87,33 +87,33 @@ projects[admin_menu][subdir] = "contrib"
 
 ; If you want to retrieve a specific version of a project:
 
-projects[cck] = 2.6
+; projects[cck] = 2.6
 
 ; Or an alternative, extended syntax:
 
-projects[ctools][version] = 1.3
+; projects[ctools][version] = 1.3
 
 ; Check out the latest version of a project from CVS. Note that when using a
 ; repository as your project source, you must explictly declare the project
 ; type so that drush_make knows where to put your project.
 
-projects[data][type] = module
-projects[data][download][type] = cvs
-projects[data][download][module] = contributions/modules/data
-projects[data][download][revision] = DRUPAL-6--1
+; projects[data][type] = module
+; projects[data][download][type] = cvs
+; projects[data][download][module] = contributions/modules/data
+; projects[data][download][revision] = DRUPAL-6--1
 
 ; Clone a project from github.
 
-projects[tao][type] = theme
-projects[tao][download][type] = git
-projects[tao][download][url] = git://github.com/developmentseed/tao.git
+; projects[tao][type] = theme
+; projects[tao][download][type] = git
+; projects[tao][download][url] = git://github.com/developmentseed/tao.git
 
 ; If you want to install a module into a sub-directory, you can use the
 ; `subdir` attribute.
 
-projects[admin_menu][subdir] = custom
+; projects[admin_menu][subdir] = custom
 
 ; To apply a patch to a project, use the `patch` attribute and pass in the URL
 ; of the patch.
 
-projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.long_.31.patch"
+; projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.long_.31.patch"
