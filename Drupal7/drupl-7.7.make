@@ -83,7 +83,7 @@ projects[cck][version] = 2.x-dev
 
 projects[features][subdir] = "contrib"
 projects[features][type] = "module"
-projects[features][version] = 3.x-dev
+projects[features][version] = 1.x-dev
 
 projects[finder] = 1.1
 projects[finder][subdir] = "contrib"
@@ -91,7 +91,7 @@ projects[finder][type] = "module"
 
 projects[userpoints][subdir] = "contrib"
 projects[userpoints][type] = "module"
-projects[userpoints][version] = 1.1
+projects[userpoints][version] = 1.0
 
 projects[nodeaccess_password][version] = 4.0
 projects[nodeaccess_password][subdir] = "contrib"
