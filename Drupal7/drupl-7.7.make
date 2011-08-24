@@ -1,25 +1,5 @@
-; $Id$
-;
-; Example makefile
-; ----------------
-; This is an example makefile to introduce new users of drush_make to the
-; syntax and options available to drush_make. For a full description of all
-; options available, see README.txt.
-
-; This make file is a working makefile - try it! Any line starting with a `;`
-; is a comment.
-
-; Core version
-; ------------
-; Each makefile should begin by declaring the core version of Drupal that all
-; projects should be compatible with.
 
 core = 7.x
-
-; API version
-; ------------
-; Every makefile needs to declare it's Drush Make API version. This version of
-; drush make uses API version `2`.
 
 api = 2
 
