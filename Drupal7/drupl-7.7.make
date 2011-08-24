@@ -81,6 +81,40 @@ projects[cck][subdir] = "contrib"
 projects[features] = 3.x-dev
 projects[features][subdir] = "contrib"
 
+projects[finder] = 1.1
+projects[finder][subdir] = "contrib"
+
+projects[user_points] = 1.1
+projects[finder][subdir] = "contrib"
+
+projects[nodeaccess_password] = 4.0
+projects[finder][subdir] = "contrib"
+
+projects[kcfinder] = 1.84
+projects[kcfinder][subdir] = "contrib"
+
+projects[realname_registration] = 2.0-rc1
+projects[realname_registration][subdir] = "contrib"
+
+projects[purr_messages] = 2.0-beta2
+projects[purr_messages][subdir] = "contrib"
+
+projects[geolocation] = 1.0-beta1
+projects[geolocation][subdir] = "contrib"
+
+projects[css_injector] = 1.6
+projects[css_injector][subdir] = "contrib"
+
+projects[uuid] = 1.0-alpha2
+projects[css_injector][subdir] = "contrib"
+
+projects[opengraph_meta] = 7.x-1.1
+projects[opengraph_meta][subdir] = "contrib"
+
+projects[fb] = 7.x-3.x-dev
+projects[fb][subdir] = "contrib"
+
+
 
 http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
 
@@ -121,3 +155,4 @@ http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
 ; of the patch.
 
 ; projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.long_.31.patch"
+
