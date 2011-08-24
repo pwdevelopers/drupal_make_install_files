@@ -61,19 +61,22 @@ projects[] = drupal
 
 ; projects[] = views
 
-projects[views][version] = 7.x-3.0-rc1
+projects[views][version] = 3.0-rc1
 projects[views][subdir] = "contrib"
 
-projects[cck] = 7.x-2.x-dev
+projects[views][subdir] = "contrib"
+projects[views][version] = 3
+
+projects[cck] = 2.x-dev
 projects[cck][subdir] = "contrib"
 
-projects[token] = 7.x-1.0-beta4
+projects[token] = 1.0-beta4
 projects[token][subdir] = "contrib"
 
-projects[pathauto] = 7.x-1.0-rc2
+projects[pathauto] = 1.0-rc2
 projects[pathauto][subdir] = "contrib"
 
-projects[admin_menu] = 7.x-3.x-dev
+projects[admin_menu] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
 
 
