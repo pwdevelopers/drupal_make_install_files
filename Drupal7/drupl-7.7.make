@@ -14,7 +14,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-core = 7.x
+core = 7.7
 
 ; API version
 ; ------------
@@ -60,7 +60,10 @@ projects[] = drupal
 ; To include the most recent views module:
 
 ; projects[] = views
-projects[views] = 7.x-3.0-rc1
+
+projects[views][version] = 7.x-3.0-rc1
+projects[views][subdir] = "contrib"
+
 projects[cck] = 7.x-2.x-dev
 projects[token] = 7.x-1.0-beta4
 projects[pathauto] = 7.x-1.0-rc2
