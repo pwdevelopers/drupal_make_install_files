@@ -64,8 +64,6 @@ projects[] = drupal
 projects[views][version] = 3.0-rc1
 projects[views][subdir] = "contrib"
 
-
-
 projects[token] = 1.0-beta4
 projects[token][subdir] = "contrib"
 
@@ -84,11 +82,11 @@ projects[features][subdir] = "contrib"
 projects[finder] = 1.1
 projects[finder][subdir] = "contrib"
 
-projects[user_points] = 1.1
-projects[finder][subdir] = "contrib"
+projects[userpoints] = 1.1
+projects[userpoints][subdir] = "contrib"
 
 projects[nodeaccess_password] = 4.0
-projects[finder][subdir] = "contrib"
+projects[nodeaccess_password][subdir] = "contrib"
 
 projects[kcfinder] = 1.84
 projects[kcfinder][subdir] = "contrib"
@@ -106,7 +104,7 @@ projects[css_injector] = 1.6
 projects[css_injector][subdir] = "contrib"
 
 projects[uuid] = 1.0-alpha2
-projects[css_injector][subdir] = "contrib"
+projects[uuid][subdir] = "contrib"
 
 projects[opengraph_meta] = 1.1
 projects[opengraph_meta][subdir] = "contrib"
