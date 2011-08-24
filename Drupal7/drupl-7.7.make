@@ -14,7 +14,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-; core = 7.x
+core = 7.7
 
 ; API version
 ; ------------
@@ -49,12 +49,6 @@ api = 2
 ; projects[drupal][download][revision] = "HEAD"
 ; projects[drupal][download][module] = "drupal"
 
-
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "git"
-projects[drupal][download][url] = "git://github.com/pressflow/7.git"
-
-
 projects[] = drupal
 
 ; Projects
@@ -71,9 +65,16 @@ projects[views][version] = 7.x-3.0-rc1
 projects[views][subdir] = "contrib"
 
 projects[cck] = 7.x-2.x-dev
+projects[cck][subdir] = "contrib"
+
 projects[token] = 7.x-1.0-beta4
+projects[token][subdir] = "contrib"
+
 projects[pathauto] = 7.x-1.0-rc2
+projects[pathauto][subdir] = "contrib"
+
 projects[admin_menu] = 7.x-3.x-dev
+projects[admin_menu][subdir] = "contrib"
 
 
 ; This will, by default, retrieve the latest recommended version of the project
@@ -83,34 +84,33 @@ projects[admin_menu] = 7.x-3.x-dev
 
 ; If you want to retrieve a specific version of a project:
 
-; projects[cck] = 2.6
+projects[cck] = 2.6
 
 ; Or an alternative, extended syntax:
 
-; projects[ctools][version] = 1.3
+projects[ctools][version] = 1.3
 
 ; Check out the latest version of a project from CVS. Note that when using a
 ; repository as your project source, you must explictly declare the project
 ; type so that drush_make knows where to put your project.
 
-; projects[data][type] = module
-; projects[data][download][type] = cvs
-; projects[data][download][module] = contributions/modules/data
-; projects[data][download][revision] = DRUPAL-6--1
+projects[data][type] = module
+projects[data][download][type] = cvs
+projects[data][download][module] = contributions/modules/data
+projects[data][download][revision] = DRUPAL-6--1
 
 ; Clone a project from github.
 
-; projects[tao][type] = theme
-; projects[tao][download][type] = git
-; projects[tao][download][url] = git://github.com/developmentseed/tao.git
-
+projects[tao][type] = theme
+projects[tao][download][type] = git
+projects[tao][download][url] = git://github.com/developmentseed/tao.git
 
 ; If you want to install a module into a sub-directory, you can use the
 ; `subdir` attribute.
 
-; projects[admin_menu][subdir] = custom
+projects[admin_menu][subdir] = custom
 
 ; To apply a patch to a project, use the `patch` attribute and pass in the URL
 ; of the patch.
 
-; projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.long_.31.patch"
+projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.long_.31.patch"
