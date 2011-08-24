@@ -77,9 +77,9 @@ projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][type] = "module"
 
-projects[cck][version] = 7.x-2.x-dev
 projects[cck][subdir] = "contrib"
 projects[cck][type] = "module"
+projects[cck][version] = 2.x-dev
 
 projects[features][version] = 3.x-dev
 projects[features][subdir] = "contrib"
