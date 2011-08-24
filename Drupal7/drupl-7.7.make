@@ -63,55 +63,71 @@ projects[] = drupal
 
 projects[views][version] = 3.0-rc1
 projects[views][subdir] = "contrib"
+projects[views][type] = "module"
 
 projects[token] = 1.0-beta4
 projects[token][subdir] = "contrib"
+projects[token][type] = "module"
 
 projects[pathauto] = 1.0-rc2
 projects[pathauto][subdir] = "contrib"
+projects[pathauto][type] = "module"
 
 projects[admin_menu] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][type] = "module"
 
 projects[cck] = 7.x-2.x-dev
 projects[cck][subdir] = "contrib"
+projects[cck][type] = "module"
 
 projects[features] = 3.x-dev
 projects[features][subdir] = "contrib"
+projects[features][type] = "module"
 
 projects[finder] = 1.1
 projects[finder][subdir] = "contrib"
+projects[finder][type] = "module"
 
 projects[userpoints] = 1.1
 projects[userpoints][subdir] = "contrib"
+projects[userpoints][type] = "module"
 
 projects[nodeaccess_password] = 4.0
 projects[nodeaccess_password][subdir] = "contrib"
+projects[nodeaccess_password][type] = "module"
 
 projects[kcfinder] = 1.84
 projects[kcfinder][subdir] = "contrib"
+projects[kcfinder][type] = "module"
 
 projects[realname_registration] = 2.0-rc1
 projects[realname_registration][subdir] = "contrib"
+projects[realname_registration][type] = "module"
 
 projects[purr_messages] = 2.0-beta2
 projects[purr_messages][subdir] = "contrib"
+projects[purr_messages][type] = "module"
 
 projects[geolocation] = 1.0-beta1
 projects[geolocation][subdir] = "contrib"
+projects[geolocation][type] = "module"
 
 projects[css_injector] = 1.6
 projects[css_injector][subdir] = "contrib"
+projects[css_injector][type] = "module"
 
 projects[uuid] = 1.0-alpha2
 projects[uuid][subdir] = "contrib"
+projects[uuid][type] = "module"
 
 projects[opengraph_meta] = 1.1
 projects[opengraph_meta][subdir] = "contrib"
+projects[opengraph_meta][type] = "module"
 
 projects[fb] = 3.x-dev
 projects[fb][subdir] = "contrib"
-
+projects[fb][type] = "module"
 
 
 http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
