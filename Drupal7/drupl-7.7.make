@@ -97,6 +97,15 @@ projects[menu_minipanels][subdir] = "contrib"
 projects[menu_minipanels][type] = "module"
 projects[menu_minipanels][version] = 1.0-rc1
 
+
+projects[panels_extra_layouts][subdir] = "contrib"
+projects[panels_extra_layouts][type] = "module"
+projects[panels_extra_layouts][version] = 1.3
+
+projects[panels][subdir] = "contrib"
+projects[panels][type] = "module"
+projects[panels][version] = 3.x-dev
+
 projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = 1.x-dev
