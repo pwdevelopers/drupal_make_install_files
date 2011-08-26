@@ -129,6 +129,11 @@ projects[fb][version] = 3.x-dev
 projects[fb][subdir] = "contrib"
 projects[fb][type] = "module"
 
+projects[rules][version] = 2.0-rc1
+projects[rules][subdir] = "contrib"
+projects[rules][type] = "module"
+
+
 
 http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
 
