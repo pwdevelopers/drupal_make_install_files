@@ -85,7 +85,7 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = 1.x-dev
 
-projects[finder] = 1.1
+projects[finder] = 1.3
 projects[finder][subdir] = "contrib"
 projects[finder][type] = "module"
 
@@ -133,7 +133,34 @@ projects[rules][version] = 2.0-rc1
 projects[rules][subdir] = "contrib"
 projects[rules][type] = "module"
 
+projects[token][version] = 1.0-beta4
+projects[token][subdir] = "contrib"
+projects[token][type] = "module"
 
+projects[entity][version] = 1.0-beta10
+projects[entity][subdir] = "contrib"
+projects[entity][type] = "module"
+
+projects[xray][version] = 1.0-beta2
+projects[xray][subdir] = "contrib"
+projects[xray][type] = "module"
+
+projects[views_jqfx_galleria][version] = 1.x-dev
+projects[views_jqfx_galleria][subdir] = "contrib"
+projects[views_jqfx_galleria][type] = "module"
+
+projects[views_jqfx][version] = 1.x-dev
+projects[views_jqfx][subdir] = "contrib"
+projects[views_jqfx][type] = "module"
+
+projects[views_jqfx_imageflow][version] = 1.x-dev
+projects[views_jqfx_imageflow][subdir] = "contrib"
+projects[views_jqfx_imageflow][type] = "module"
+
+libraries[imageflow][download][type] = "get"
+libraries[imageflow][download][url] = "http://finnrudolph.de/content/ImageFlow_1.3.0.zip"
+libraries[imageflow][directory_name] = "ImageFlow"
+libraries[imageflow][destination] = "libraries/"
 
 http://ftp.drupal.org/files/projects/features-7.x-1.0-beta3.tar.gz
 
