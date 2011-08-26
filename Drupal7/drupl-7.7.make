@@ -270,11 +270,11 @@ projects[autolink][type] = "module"
 
 ; MEMBERSHIP and LOGIN ********
 
-projects[uuid][version] = 2.4
+projects[uuid][version] = 1.0-alpha2
 projects[uuid][subdir] = "contrib"
 projects[uuid][type] = "module"
 
-projects[login_one_time][version] = 1.0-alpha2
+projects[login_one_time][version] = 2.4
 projects[login_one_time][subdir] = "contrib"
 projects[login_one_time][type] = "module"
 
@@ -411,11 +411,11 @@ projects[admin][version] = 2.0-beta3
 projects[admin][subdir] = "contrib"
 projects[admin][type] = "module"
 
-projects[admin_menu][version] = 1.0-beta1
+projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][type] = "module"
 
-projects[admin_notes][version] = 3.x-dev
+projects[admin_notes][version] = 1.0-beta1
 projects[admin_notes][subdir] = "contrib"
 projects[admin_notes][type] = "module"
 
